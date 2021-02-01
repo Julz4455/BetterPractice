@@ -1,0 +1,23 @@
+{
+  "id": "better-practice",
+  "name": "BetterPractice",
+  "version": "0.1.0",
+  "author": "Constanze",
+  "description": [
+    "BetterPractice I guess?"
+  ],
+  "category": "Gameplay",
+  "gameVersion": "1.13.2",
+  "platform": "Quest",
+  "components": [
+    {
+      "type": "HookMod",
+      "installAction": {
+        "installLibraryFile": "libbetter-practice.so"
+      },
+      "uninstallAction": {
+        "removeLibraryFile": "libbetter-practice.so"
+      }
+    }
+  ]
+}
